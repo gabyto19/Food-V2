@@ -1,0 +1,57 @@
+main {
+  background-color: #fff8e9;
+}
+header {
+  height: 817px;
+  width: 100%;
+}
+.vectors {
+  float: right;
+}
+.info {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+.info p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #41a700;
+}
+.info h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+  color: #003500;
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.info h6 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #003500;
+}
+
+.info button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 60px;
+  background: transparent;
+  border: solid 2px #41a700;
+  /* Build up */
+
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #41a700;
+}
