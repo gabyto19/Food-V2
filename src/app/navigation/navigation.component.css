@@ -18,7 +18,7 @@ main {
     width: 115px;
     font-family: "Kumbh Sans", sans-serif;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 21px;
     color: #003500;
 }
 
@@ -42,4 +42,10 @@ main {
     background: transparent;
     border: #41A700 3px;
     border-style: solid;
+}
+.authorize p{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    color: #003500;
 }
