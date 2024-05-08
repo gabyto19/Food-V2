@@ -144,9 +144,10 @@ main {
   align-items: center;
   justify-content: space-around;
 }
-.second-div div {
+.sec-one{
   width: 600px;
   height: 95%;
+  text-align: center;
 }
 .second-div div:first-child img {
   height: 200px;
@@ -159,17 +160,46 @@ main {
   align-items: center;
 }
 
-.w1{
+.w1 {
   border-top-right-radius: 120px;
   border-bottom-left-radius: 120px;
 }
-.w3{
+.w3 {
   border-top-left-radius: 120px;
   border-bottom-right-radius: 120px;
 }
-.w2{
+.w2 {
   border-radius: 89.5px 0px 89.5px 0px;
 }
-.w4{
-  border-radius: 0px  89.5px 0px 89.5px ;
+.w4 {
+  border-radius: 0px 89.5px 0px 89.5px;
+}
+.second-div div:nth-child(2) h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+
+  color: #003500;
+
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.second-div div:nth-child(2) p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #41a700;
+  width: 70%;
+  margin: auto;
+}
+.progresses{
+  height: 200px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
