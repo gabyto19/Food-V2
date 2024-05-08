@@ -1,4 +1,4 @@
-main {
+.main-div {
   background-color: #fff8e9;
 }
 header {
@@ -54,4 +54,87 @@ header {
   font-size: 24px;
   line-height: 30px;
   color: #41a700;
+}
+.first-div {
+  height: 900px;
+  width: 100%;
+  background-image: url("/assets/Home/Second-background.jpg");
+  background-size: cover;
+}
+
+main {
+  position: relative;
+  top: -9px;
+}
+.darker-bg {
+  background-color: #2525258a;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title img {
+  width: 279px;
+  height: 276px;
+}
+.title h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+  color: #ffffff;
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.title h3 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.darker-bg div {
+  width: 600px;
+  text-align: center;
+}
+.info-div {
+  background: #025d02;
+  height: 100%;
+  padding: 72px;
+}
+.info-div h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+
+  color: #ffffff;
+
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+.info-div p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.info-div button {
+  border: solid 2px white;
+  height: 70px;
+  width: 270px;
+  margin-top: 60px;
+  background-color: transparent;
+  border-radius: 17px;
+  /* Learn more */
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
 }
