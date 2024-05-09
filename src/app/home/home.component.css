@@ -144,7 +144,7 @@ main {
   align-items: center;
   justify-content: space-around;
 }
-.sec-one{
+.sec-one {
   width: 600px;
   height: 95%;
   text-align: center;
@@ -196,10 +196,53 @@ main {
   width: 70%;
   margin: auto;
 }
-.progresses{
+.progresses {
   height: 200px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.third-div {
+  height: 500px;
+  display: flex;
+  background-color: #a1f76b;
+  flex-direction: column;
+  align-items: center;
+}
+.plate-img {
+  width: 802px;
+  position: absolute;
+  right: 164px;
+  top: 74px;
+}
+.third-div h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+
+  color: #003500;
+
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.third-div p {
+  width: 1000px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.third-div img {
+  height: 90px;
+  margin-top: 20px;
+}
+.third-div h5 {
+  color: white;
+  font-size: x-large;
 }
