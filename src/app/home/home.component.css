@@ -61,11 +61,6 @@ header {
   background-image: url("/assets/Home/Second-background.jpg");
   background-size: cover;
 }
-
-main {
-  position: relative;
-  top: -9px;
-}
 .darker-bg {
   background-color: #2525258a;
   align-items: center;
