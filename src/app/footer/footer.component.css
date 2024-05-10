@@ -1,0 +1,51 @@
+footer {
+  background-image: url("/assets/Footer/background.png");
+  height: 400px;
+  background-color: blue;
+  background-size: cover;
+}
+.logo-class {
+  width: 200px;
+  text-align: center;
+}
+.logo-class h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.logo-class img {
+  height: 125px;
+}
+.logo-class p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+.lists-class {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
+  color: white;
+}
+.lists-class li{
+    list-style: none;
+    line-height: 40px;
+}
+.lists-class h1{
+    font-family: monospace;
+    font-size: 30px;
+}
+.left-div{
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
