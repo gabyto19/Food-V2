@@ -1,11 +1,75 @@
-main{
-    background-image: url("/assets/Build/background\ picture.jpg");
-    height: 950px;
-    width: 100%;
-    background-size: cover;
+main {
+  background-image: url("/assets/Build/background\ picture.jpg");
+  height: 950px;
+  width: 100%;
+  background-size: cover;
 }
-.cover-div{
-    height: 100%;
-    width: 100%;
-    background-color: #101010b5;
+.cover-div {
+  height: 100%;
+  width: 100%;
+  background-color: #101010b5;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 125px;
+}
+.main-div button {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #41a700;
+  border: none;
+}
+.Category-h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+  color: #ffffff;
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+
+.food-category button {
+  width: 150px;
+  height: 42px;
+  margin: 3px;
+}
+.food-category button:first-child {
+  border-radius: 25px 0px 25px 25px;
+}
+.food-category button:nth-child(2) {
+  border-radius: 0px 0px 25px 25px;
+}
+.food-category button:nth-child(3) {
+  border-radius: 0px 25px 25px 25px;
+}
+.middle-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-side-buttons,
+.plate,
+.right-side-buttons {
+  width: 500px;
+  height: 500px;
+}
+.left-side-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.left-side-buttons button{
+    width: 130px;
+    height: 45px;
+    margin: 25px;
+    border-radius: 0px 25px 0px 25px;
 }
