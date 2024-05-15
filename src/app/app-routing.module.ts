@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { BuildComponent } from './build/build.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { AuthorizeComponent } from './authorize/authorize.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'build', component: BuildComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'authorize', component: AuthorizeComponent },
 
 ];
 

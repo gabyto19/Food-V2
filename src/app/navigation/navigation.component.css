@@ -44,6 +44,8 @@ header {
   background: transparent;
   border: #41a700 3px;
   border-style: solid;
+  z-index: 10;
+  cursor: pointer;
 }
 .authorize p {
   font-family: "Kumbh Sans", sans-serif;

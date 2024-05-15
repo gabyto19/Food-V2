@@ -1,0 +1,20 @@
+main {
+  background-image: url("/assets/Build/background\ picture.jpg");
+  height: 950px;
+  width: 100%;
+  background-size: cover;
+}
+.cover-div {
+  height: 100%;
+  width: 100%;
+  background-color: #101010b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.authorize {
+  height: 550px;
+  width: 450px;
+  background-color: rgba(203, 228, 187, 0.3);
+  border-radius: 95px;
+}
