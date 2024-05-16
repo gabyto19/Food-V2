@@ -1,7 +1,16 @@
 <div class="main-div">
   <div class="header-class">
-    <div class="contactForm">
-      <app-mail></app-mail>
+    <div class="contactForm" [ngSwitch]="ContactFormToggler">
+      <div class="nav-buttons">
+        <button (click)="ContactFormToggler = 'email'">Email</button>
+        <button (click)="ContactFormToggler = 'call'">Call</button>
+        <button (click)="ContactFormToggler = 'live'">Live Chat</button>
+        <button (click)="ContactFormToggler = 'feedback'">Feedback</button>
+      </div>
+      <app-mail *ngSwitchCase="'email'"></app-mail>
+      <app-call *ngSwitchCase="'call'"></app-call>
+      <app-live *ngSwitchCase="'live'"></app-live>
+      <app-feedback *ngSwitchCase="'feedback'"></app-feedback>
     </div>
     <img src="assets/Home/plate background.png" alt="" class="plate-img" />
     <svg

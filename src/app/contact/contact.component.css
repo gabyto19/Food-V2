@@ -37,7 +37,28 @@
   height: 500px;
   width: 400px;
   position: absolute;
-  left: 200px;
+  left: 22%;
   bottom: 190px;
   border-radius: 70px;
+}
+
+.nav-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -120px;
+  top: 23%;
+  justify-content: space-between;
+  height: 220px;
+}
+.nav-buttons button{
+  border-radius: 25px 0px 0px 25px;
+  background-color: rgba(64, 164, 1, 0.3);
+  height: 45px;
+  width: 120px;
+  border: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  color: white;
 }
