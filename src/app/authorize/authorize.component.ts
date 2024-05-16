@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './authorize.component.css'
 })
 export class AuthorizeComponent {
+  authorizeToggler: boolean = false;
 
+  toggleAuthorize(){
+    this.authorizeToggler = !this.authorizeToggler;
+  }
 }

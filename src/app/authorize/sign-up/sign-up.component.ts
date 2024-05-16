@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-sign-up',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
+  @Output() sendAuthorizeMethod = new EventEmitter<void>();
 
+
+
+  authorizeBind(){
+    this.sendAuthorizeMethod.emit();
+  }
 }

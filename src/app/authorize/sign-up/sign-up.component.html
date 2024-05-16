@@ -1,1 +1,44 @@
-<p>sign-up works!</p>
+<div class="sign-up">
+  <img src="/assets/Authorize/logo.png" alt="" />
+  <div class="names">
+    <input
+      type="text"
+      name="firstname"
+      id="firstname"
+      placeholder="First Name"
+    />
+    <input
+      type="text"
+      name="lastname"
+      id="lastname"
+      placeholder="Last Name"
+    />
+  </div>
+  <input
+    type="number"
+    name="phone"
+    id="phone"
+    placeholder="Phone Number"
+  />
+  <input
+    type="text"
+    name="email"
+    id="email"
+    placeholder="Email Address"
+  />
+  <input
+    type="password"
+    name="password"
+    id="password"
+    placeholder="Password"
+  />
+  <button class="login">Login</button>
+  <br />
+  <p class="or-login">Or login with</p>
+  <div class="soc-login">
+    <button>Facebook</button>
+    <button>Google</button>
+  </div>
+  <br />
+  <p class="register" (click)="authorizeBind()">Our Member? Sign in</p>
+</div>

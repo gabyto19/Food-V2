@@ -1,0 +1,95 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 150px;
+}
+input {
+  width: 260px;
+  height: 45px;
+  background: white;
+  border-radius: 16px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+input:focus {
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+input::-webkit-input-placeholder {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5c5757;
+  align-self: center;
+}
+
+.login {
+  width: 260px;
+  height: 45px;
+  border-radius: 16px;
+  border: none;
+  background-color: #003500;
+
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.or-login {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.soc-login {
+  display: flex;
+  justify-content: space-around;
+  width: 260px;
+}
+.soc-login button {
+  background-color: #003500;
+  height: 36px;
+  width: 105px;
+  border-radius: 30px;
+  border: none;
+
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: white;
+}
+.register {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+.names input {
+  width: 49%;
+}

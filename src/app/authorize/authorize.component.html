@@ -1,7 +1,8 @@
 <main>
   <div class="cover-div">
     <div class="authorize">
-        <app-sign-in></app-sign-in>
+      <app-sign-in *ngIf="!authorizeToggler" (sendAuthorizeMethod) = "toggleAuthorize()"></app-sign-in> 
+      <app-sign-up *ngIf="authorizeToggler" (sendAuthorizeMethod) = "toggleAuthorize()"></app-sign-up>
     </div>
   </div>
 </main>

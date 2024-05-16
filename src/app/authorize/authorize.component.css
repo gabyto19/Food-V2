@@ -13,8 +13,11 @@ main {
   justify-content: center;
 }
 .authorize {
-  height: 550px;
+  height: 620px;
   width: 450px;
   background-color: rgba(203, 228, 187, 0.3);
   border-radius: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
