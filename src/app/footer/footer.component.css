@@ -3,6 +3,8 @@ footer {
   height: 400px;
   background-color: blue;
   background-size: cover;
+  z-index: 10;
+  position: relative;
 }
 .logo-class {
   width: 200px;
@@ -36,16 +38,16 @@ footer {
   width: 1000px;
   color: white;
 }
-.lists-class li{
-    list-style: none;
-    line-height: 40px;
+.lists-class li {
+  list-style: none;
+  line-height: 40px;
 }
-.lists-class h1{
-    font-family: monospace;
-    font-size: 30px;
+.lists-class h1 {
+  font-family: monospace;
+  font-size: 30px;
 }
-.left-div{
-    justify-content: center;
-    position: relative;
-    top: 60px;
+.left-div {
+  justify-content: center;
+  position: relative;
+  top: 60px;
 }

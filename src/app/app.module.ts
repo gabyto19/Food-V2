@@ -12,6 +12,10 @@ import { ContactComponent } from './contact/contact.component';
 import { AuthorizeComponent } from './authorize/authorize.component';
 import { SignInComponent } from './authorize/sign-in/sign-in.component';
 import { SignUpComponent } from './authorize/sign-up/sign-up.component';
+import { MailComponent } from './contact/mail/mail.component';
+import { CallComponent } from './contact/call/call.component';
+import { LiveComponent } from './contact/live/live.component';
+import { FeedbackComponent } from './contact/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { SignUpComponent } from './authorize/sign-up/sign-up.component';
     ContactComponent,
     AuthorizeComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    MailComponent,
+    CallComponent,
+    LiveComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,43 @@
+.main-div {
+  background-image: url("/assets/Build/background\ picture.jpg");
+  background-size: cover;
+  margin-bottom: -10px;
+}
+.header-class {
+  height: 817px;
+  width: 100%;
+  background-color: #101010b5;
+}
+.vectors {
+  position: relative;
+  left: 65%;
+}
+.first-div {
+  height: 900px;
+  width: 100%;
+  background-image: url("/assets/Home/Second-background.jpg");
+  background-size: cover;
+}
+.darker-bg {
+  background-color: #2525258a;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plate-img {
+  width: 802px;
+  position: absolute;
+  left: 65%;
+  top: 74px;
+  z-index: 5;
+}
+
+.contactForm {
+  background-color: rgba(161, 247, 107, 0.3);
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  left: 200px;
+  bottom: 190px;
+  border-radius: 70px;
+}
