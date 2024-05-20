@@ -6,15 +6,15 @@
     <ul
       class="buttons-list d-flex justify-content-evenly align-items-center m-auto"
     >
-      <li routerLink="/">Home</li>
-      <li routerLink="/build">Build Up</li>
-      <li routerLink="/about">About</li>
-      <li routerLink="/contact">Contact Us</li>
+      <li [ngClass]="{ 'homePageTextColor': saver == '/home' }" routerLink="/">Home</li>
+      <li [ngClass]="{ 'homePageTextColor': saver == '/home' }" routerLink="/build">Build Up</li>
+      <li [ngClass]="{ 'homePageTextColor': saver == '/home' }" routerLink="/about" >About</li>
+      <li [ngClass]="{ 'homePageTextColor': saver == '/home' }" routerLink="/contact" >Contact Us</li>
     </ul>
   </div>
   <div class="authorize-div rounded" routerLink="/authorize">
-    <div  class="authorize p-1">
-      <p>Sign In</p>
+    <div class="authorize p-1">
+      <p [ngClass]="{ 'homePageTextColor': saver == '/home' }">Sign In</p>
     </div>
   </div>
 </header>

@@ -19,7 +19,7 @@ header {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: bolder;
   font-size: 21px;
-  color: #003500;
+  color: white;
   cursor: pointer;
   z-index: 10;
 }
@@ -51,5 +51,8 @@ header {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: bolder;
   font-size: 21px;
-  color: #003500;
+  color: white;
+}
+.homePageTextColor {
+  color: #003500 !important;
 }
