@@ -9,24 +9,10 @@
       </div>
       <div class="middle-div">
         <div class="left-side-buttons">
-          <button>
-            <img src="assets/Build/Left images/egg.png" alt="" />Egg
+          <button *ngFor="let product of products[1]">
+            <img [src]="product.imageUrl"/>{{product.name}}
           </button>
-          <button>
-            <img src="assets/Build/Left images/bread.png" alt="" />Bread
-          </button>
-          <button>
-            <img src="assets/Build/Left images/meat.png" alt="" />Meat
-          </button>
-          <button>
-            <img src="assets/Build/Left images/cheese.png" alt="" />Cheese
-          </button>
-          <button style="font-size: 20px">
-            <img src="assets/Build/Left images/vegetable.png" alt="" />Vegetable
-          </button>
-          <button>
-            <img src="assets/Build/Left images/sauce.png" alt="" />Sauce
-          </button>
+
         </div>
         <div class="plate"><img src="/assets/Build/plate.png" alt="" /></div>
         <div class="right-side-buttons">

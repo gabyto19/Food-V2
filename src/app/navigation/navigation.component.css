@@ -56,3 +56,6 @@ header {
 .homePageTextColor {
   color: #003500 !important;
 }
+img{
+  height: 100px !important;
+}

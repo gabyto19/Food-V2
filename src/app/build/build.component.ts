@@ -7,62 +7,66 @@ import { Component } from '@angular/core';
 })
 export class BuildComponent {
   products: any[] = [
-    [ //Foods
+    [//Foods
       {
         id: 1,
         name: 'Egg',
-        imageUrl: '/assets/imgs/foodproducts/icons8-breakfast-60.png',
+        imageUrl: 'assets/Build/Left images/Food/egg.png',
       },
       {
         id: 2,
         name: 'Bread',
-        imageUrl: '/assets/imgs/foodproducts/sandwich.png',
+        imageUrl: 'assets/Build/Left images/Food/bread.png',
       },
       {
         id: 3,
         name: 'Meat',
-        imageUrl: '/assets/imgs/foodproducts/sandwich.png',
+        imageUrl: 'assets/Build/Left images/Food/meat.png',
       },
       {
         id: 4,
-        name: 'Vegetables',
-        imageUrl: '/assets/imgs/foodproducts/sandwich.png',
+        name: 'Cheese',
+        imageUrl: 'assets/Build/Left images/Food/cheese.png',
       },
       {
         id: 5,
-        name: 'Sauces',
-        imageUrl: '/assets/imgs/foodproducts/sandwich.png',
+        name: 'Vegetables',
+        imageUrl: 'assets/Build/Left images/Food/vegetable.png',
       },
-
+      {
+        id: 6,
+        name: 'Sauces',
+        imageUrl: 'assets/Build/Left images/Food/sauce.png',
+      },
     ],
-    [
+    [//Drinks
       {
         id: 1,
         name: 'Water',
-        imageUrl: '/assets/imgs/desserts/cake.png',
+        imageUrl: 'assets/Build/Left images/Drinks/water.png',
       },
       {
         id: 2,
         name: 'Soda',
-        imageUrl: '/assets/imgs/desserts/cookie.png',
+        imageUrl: 'assets/Build/Left images/Drinks/soda.png',
       },
       {
         id: 3,
         name: 'juice',
-        imageUrl: '/assets/imgs/desserts/cookie.png',
+        imageUrl: 'assets/Build/Left images/Drinks/juice.png',
       },
       {
         id: 4,
         name: 'Energy',
-        imageUrl: '/assets/imgs/desserts/cookie.png',
+        imageUrl: 'assets/Build/Left images/Drinks/energy.png',
       },
       {
         id: 5,
         name: 'Other',
-        imageUrl: '/assets/imgs/desserts/cookie.png',
+        imageUrl: 'assets/Build/Left images/Drinks/coffee.png',
       },
     ],
-    [
+    [//Sweets
       {
         id: 1,
         name: 'Cake',
