@@ -1,0 +1,63 @@
+.main-div {
+  background-image: url("/assets/Build/background\ picture.jpg");
+  background-size: cover;
+  margin-bottom: -10px;
+}
+.header-class {
+  height: 817px;
+  width: 100%;
+  background-color: #101010b5;
+}
+.vectors {
+  position: relative;
+  left: 65%;
+}
+.first-div {
+  height: 900px;
+  width: 100%;
+  background-image: url("/assets/Home/Second-background.jpg");
+  background-size: cover;
+}
+.darker-bg {
+  background-color: #2525258a;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plate-img {
+  width: 802px;
+  position: absolute;
+  left: 65%;
+  top: 74px;
+  z-index: 5;
+}
+.info {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  color: white;
+  text-align: center;
+}
+.info img {
+  height: 400px;
+  box-shadow: 0px 0px 23px 23px #a1f76b38;
+  background: #a1f76b38;
+  border-radius: 100%;
+}
+.info h1 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 79px;
+  color: #ffffff;
+  text-shadow: 7px 6px 9.7px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}

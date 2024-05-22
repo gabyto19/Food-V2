@@ -9,6 +9,7 @@
 .vectors {
   position: relative;
   left: 65%;
+  bottom: 9px;
 }
 .info {
   position: absolute;
