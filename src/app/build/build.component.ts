@@ -93,7 +93,11 @@ export class BuildComponent {
         id: 4,
         name: 'Muffin',
         imageUrl: 'assets/Build/Left images/Sweets/muffin.png',
-
+      },
+      {
+        id: 5,
+        name: 'Croasan',
+        imageUrl: 'assets/Build/Left images/Sweets/croasan.png',
       },
     ],
   ];
