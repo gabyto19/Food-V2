@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './build.component.css',
 })
 export class BuildComponent {
+  bindedCategory: number = 0;
+
   products: any[] = [
-    [//Foods
+    [
+      //Foods
       {
         id: 1,
         name: 'Egg',
@@ -39,7 +42,8 @@ export class BuildComponent {
         imageUrl: 'assets/Build/Left images/Food/sauce.png',
       },
     ],
-    [//Drinks
+    [
+      //Drinks
       {
         id: 1,
         name: 'Water',
@@ -66,27 +70,35 @@ export class BuildComponent {
         imageUrl: 'assets/Build/Left images/Drinks/coffee.png',
       },
     ],
-    [//Sweets
+    [
+      //Sweets
       {
         id: 1,
         name: 'Cake',
-        imageUrl: '/assets/imgs/desserts/cake.png',
+        imageUrl: 'assets/Build/Left images/Sweets/cake.png',
       },
       {
         id: 2,
         name: 'Cookie',
-        imageUrl: '/assets/imgs/desserts/cookie.png',
+        imageUrl: 'assets/Build/Left images/Sweets/cookie.png',
+
       },
       {
         id: 3,
         name: 'Donut',
-        imageUrl: '/assets/imgs/desserts/donut.png',
+        imageUrl: 'assets/Build/Left images/Sweets/donut.png',
+
       },
       {
         id: 4,
         name: 'Muffin',
-        imageUrl: '/assets/imgs/desserts/muffin.png',
+        imageUrl: 'assets/Build/Left images/Sweets/muffin.png',
+
       },
     ],
   ];
+
+  BindCategory(category: number) {
+    this.bindedCategory = category
+  }
 }

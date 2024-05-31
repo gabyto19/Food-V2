@@ -3,16 +3,15 @@
     <div class="main-div">
       <h1 class="Category-h1">Category</h1>
       <div class="food-category">
-        <button>Food</button>
-        <button>Drink</button>
-        <button>Sweet</button>
+        <button (click)="BindCategory(0)">Food</button>
+        <button (click)="BindCategory(1)">Drink</button>
+        <button (click)="BindCategory(2)">Sweet</button>
       </div>
       <div class="middle-div">
         <div class="left-side-buttons">
-          <button *ngFor="let product of products[1]">
-            <img [src]="product.imageUrl"/>{{product.name}}
+          <button *ngFor="let product of products[bindedCategory]">
+            <img [src]="product.imageUrl" />{{ product.name }}
           </button>
-
         </div>
         <div class="plate"><img src="/assets/Build/plate.png" alt="" /></div>
         <div class="right-side-buttons">
