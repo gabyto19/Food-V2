@@ -71,7 +71,32 @@ main {
   align-items: center;
   justify-content: center;
   height: 350px;
+  overflow: auto;
+  padding: 15px;
 }
+/* Custom scrollbar */
+.left-side-buttons::-webkit-scrollbar {
+  width: 10px; /* Set width of the scrollbar */
+}
+
+/* Track */
+.left-side-buttons::-webkit-scrollbar-track {
+  background: transparent; /* Color of the track */
+
+}
+
+/* Handle */
+.left-side-buttons::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+.left-side-buttons::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scroll thumb on hover */
+}
+
+
 .left-side-buttons button {
   width: 130px;
   height: 45px;

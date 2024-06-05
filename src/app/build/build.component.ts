@@ -14,32 +14,37 @@ export class BuildComponent {
       {
         id: 1,
         name: 'Egg',
-        imageUrl: 'assets/Build/Left images/Food/egg.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/egg.png',
       },
       {
         id: 2,
         name: 'Bread',
-        imageUrl: 'assets/Build/Left images/Food/bread.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/bread.png',
       },
       {
         id: 3,
         name: 'Meat',
-        imageUrl: 'assets/Build/Left images/Food/meat.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/meat.png',
       },
       {
         id: 4,
         name: 'Cheese',
-        imageUrl: 'assets/Build/Left images/Food/cheese.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/cheese.png',
       },
       {
         id: 5,
         name: 'Vegetables',
-        imageUrl: 'assets/Build/Left images/Food/vegetable.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/vegetable.png',
       },
       {
         id: 6,
+        name: 'Fruits',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/fruit.png',
+      },
+      {
+        id: 7,
         name: 'Sauces',
-        imageUrl: 'assets/Build/Left images/Food/sauce.png',
+        imageUrl: 'assets/Build/Left images/Food/Food-Category/sauce.png',
       },
     ],
     [
@@ -81,13 +86,11 @@ export class BuildComponent {
         id: 2,
         name: 'Cookie',
         imageUrl: 'assets/Build/Left images/Sweets/cookie.png',
-
       },
       {
         id: 3,
         name: 'Donut',
         imageUrl: 'assets/Build/Left images/Sweets/donut.png',
-
       },
       {
         id: 4,
@@ -103,6 +106,6 @@ export class BuildComponent {
   ];
 
   BindCategory(category: number) {
-    this.bindedCategory = category
+    this.bindedCategory = category;
   }
 }
